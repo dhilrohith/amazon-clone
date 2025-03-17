@@ -2,7 +2,7 @@ import {deliveryOptions} from './delivery.js';
 
 export let cart ;
 
-reloadCart();
+reloadCart(); 
 
 export function reloadCart(){
     cart = JSON.parse(localStorage.getItem("cart")) ||
